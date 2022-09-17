@@ -22,3 +22,24 @@ yarn create vite my-vue-app --template vue
 
 
 yarn create vite 01-hello-world --template vue
+
+
+目录结构：
+
+```sh
+├── README.md												# 项目说明文件
+├── index.html											# 首页入口文件
+├── package.json										# 项目配置文件
+├── public													# 公共资源目录
+│   └── vite.svg										# 网站icon
+├── src															# 源代码
+│   ├── App.vue											# 项目入口页面
+│   ├── assets											# 静态资源目录
+│   │   └── vue.svg									# vue icon
+│   ├── components									# vue组件目录，自定义组件存放位置
+│   │   └── HelloWorld.vue					# 自定义组件示例
+│   ├── main.js											# 核心文件，加载组件、初始化等
+│   └── style.css										# css样式
+├── vite.config.js									# vite配置文件
+└── yarn.lock												# 使用yarn后自动生成的文件
+```
